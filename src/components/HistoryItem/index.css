@@ -1,0 +1,92 @@
+.history-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 576px) {
+    .history-item {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .time {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    font-weight: 500;
+  }
+  .list-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  @media screen and (min-width: 576px) {
+    .list-info {
+      width: 90%;
+    }
+  }
+  .mobile-mode {
+    display: flex;
+    align-items: flex-start;
+  }
+  @media screen and (min-width: 576px) {
+    .mobile-mode {
+      align-items: center;
+    }
+  }
+  .app-logo {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+  }
+  .title-container {
+    display: flex;
+    flex-direction: column;
+  }
+  @media screen and (min-width: 572px) {
+    .title-container {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
+  .title {
+    color: #475569;
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+  @media screen and (min-width: 576px) {
+    .title {
+      margin-top: 10px;
+    }
+    .domain-url {
+      margin-top: 20px;
+    }
+  }
+  .domain-url {
+    color: #64748b;
+    font-family: 'Roboto';
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 0px;
+  }
+  @media screen and (min-width: 576px) {
+    .domain-url {
+      margin-top: 10px;
+    }
+  }
+  .dlt-btn {
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+  .dlt-icon {
+    width: 25px;
+    height: 25px;
+  }
+  
